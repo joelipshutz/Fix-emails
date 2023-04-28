@@ -43,7 +43,7 @@ llm = load_LLM()
     
 
 st.set_page_config(page_title="Globalize Email", page_icon=":robot:")
-st.header("Globalize an Email")
+st.header("Fix your Emails Automagically")
 
 col1, col2 = st.columns(2)
 

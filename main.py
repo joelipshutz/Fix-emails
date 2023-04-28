@@ -43,15 +43,13 @@ llm = load_LLM()
     
 
 st.set_page_config(page_title="Globalize Email", page_icon=":robot:")
-st.header("Globalize Text")
+st.header("Globalize an Email")
 
 col1, col2 = st.columns(2)
 
 with col1:
         st.markdown("Often people would like to improve their emails but don't have the skills to do so. This tool will help you improve your emails by converting your meails into a more professional format. This tool is powered by LangChain and OpenAI.")
 
-with col2:
-        st.write("col1")
 
 st.markdown("## Enter your email")
 

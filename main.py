@@ -57,12 +57,12 @@ col1, col2 = st.columns(2)
 
 with col1: 
     option_tone = st.selectbox(
-        'which tone would you like your email to have?',
+        'Which tone would you like your email to have?',
         ('Formal', 'Informal'))
 
 with col2: 
     option_dialect = st.selectbox(
-        'Which Dialect would you like to use?',
+        'Which dialect would you like to use?',
         ('American English', 'British English'))
 
 

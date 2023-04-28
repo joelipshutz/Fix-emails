@@ -48,7 +48,7 @@ st.header("Globalize an Email")
 col1, col2 = st.columns(2)
 
 with col1:
-        st.markdown("Often people would like to improve their emails but don't have the skills to do so. This tool will help you improve your emails by converting your meails into a more professional format. This tool is powered by LangChain and OpenAI.")
+        st.markdown("Often people would like to improve their emails but don't have the skills to do so. This tool will help you improve your emails by converting them into a more professional format automagically. This tool is powered by LangChain and OpenAI.")
 
 
 st.markdown("## Enter your email")
